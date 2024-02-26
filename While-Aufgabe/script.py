@@ -4,11 +4,13 @@ import random
 #Sobald die Zahl 15 oder die Zahl 25 kommt, wird das Programm beendet und die Summe der vorherigen Zufallszahlen ausgegeben!
 
 summe_Zufallszahlen = 0
+Zahl = 0
+Zahl2 = 0
 
-while summe_Zufallszahlen != 15 and summe_Zufallszahlen != 25:
+while Zahl != 15 and Zahl2 != 25:
     
     Zufallszahl = random.randint(10, 30)
-    
+    Zahl, Zahl2 == Zufallszahl
     
     print("Generierte Zufallszahl:", Zufallszahl)
 
