@@ -16,10 +16,9 @@ class Bankomat:
     def kontostand_anzeigen(self):
         print(f"Aktueller Kontostand: {self.kontostand} Euro")
 
-# Bankomat-Objekt erstellen
+
 bankomat = Bankomat()
 
-# Bankomatensimulation
 while True:
     print("\nBankomat-Simulation:")
     print("1. Einzahlen")
